@@ -1,0 +1,44 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Learn Finite Elements"
+theme = "hugo-xmin"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
+
+# This defines the menu
+# ---------------------
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Developing a finite element code"
+    url = "/developingFE/"
+    weight = 2
+
+[[menu.main]]
+    name = "Using finite elements"
+    url = "/usingFEA/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
+    
+# ---------------------
+
+
+
+# This is a footer that will appear on every page
+[params]
+    description = "A website to learn finite elements"
+    footer = "&copy; Kedar A. Malusare, 2019 | [Github](https://github.com/kedarzc) | [LinkedIn](https://www.linkedin.com/in/kedarmalusare/)"
