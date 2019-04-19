@@ -1,7 +1,7 @@
 ---
 title: Kedar A. Malusare
 ---
-<img src="/images/me_2017.png" style="max-width:25%;min-width:40px;float:middle;"/>
+<center><img src="/images/me_2017.png" style="max-width:25%;min-width:40px;float:middle;"/></center>
 
 ## Professional Experience
 * Project Engineer, Stutzki Engineering, 2014-Present
