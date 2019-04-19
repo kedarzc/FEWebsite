@@ -2,7 +2,7 @@
 title: Home
 ---
 
-<center><img src="/images/FEA_main_page.jpg" style="max-width:100%;min-width:40px;float:middle;"/></center>
+<center><img src="/images/MainPage_image_1.png" style="max-width:100%;min-width:40px;float:middle;"/></center>
 
 <br>
 
