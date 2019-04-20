@@ -1,9 +1,10 @@
 ---
 title: Using finite elements
 ---
+## FEA using Basic Elements
+* Truss Element
 
-
-# Basic Mechanics of Materials
+## Basic Mechanics of Materials
 * Stress
 * Strain
 * Mechanical Properties of Materials
@@ -19,7 +20,7 @@ title: Using finite elements
 * [Buckling of Columns](/using_FE/Basic_MOM/BucklingColumns/Buckling_BMOM.pdf) ([Problem 1](/using_FE/Basic_MOM/BucklingColumns/Problem_1.inp))
 * Energy Methods
 
-# Intermediate Mechanics of Materials
+## Intermediate Mechanics of Materials
 * Stress and Strain
 * Material Description
 * Basic Structural Members
@@ -29,7 +30,7 @@ title: Using finite elements
 * Energy Methods
 * Elasticity and Mechanics of Materials
 
-# Advanced Mechanics of Materials
+## Advanced Mechanics of Materials
 * Stress and Strain
 * One Dimensional Structural Member
 * Influence Functions
