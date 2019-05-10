@@ -17,7 +17,7 @@ footnotereturnlinkcontents = "↩"
     weight = 1
 
 [[menu.main]]
-    name = "Developing a finite element code"
+    name = "Developing FE code"
     url = "/developingFE/"
     weight = 2
 
@@ -27,14 +27,19 @@ footnotereturnlinkcontents = "↩"
     weight = 3
 
 [[menu.main]]
+    name = "CalculiX & Abaqus Tutorials"
+    url = "/CalculiX & Abaqus Tutorials/"
+    weight = 4
+
+[[menu.main]]
     name = "About Me"
     url = "/about/"
-    weight = 5
+    weight = 6
 
 [[menu.main]]
     name = "Blog"
     url = "/allBlogs/"
-    weight = 4
+    weight = 5
 # ---------------------
 
 
