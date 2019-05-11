@@ -1,28 +1,9 @@
 ---
-title: "Linear Spring Element"
+title: "Single Linear Spring"
 date: 2019-04-18T20:39:46-05:00
 ---
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-<pre>
-**
-** Structure: spring.
-** Test objective: static calculation of a linear spring.
-**
-*NODE,NSET=NALL
-1,0.,0.,0.
-2,1.,0.,0.
-*ELEMENT,TYPE=SPRINGA,ELSET=EALL
-1,1,2
-*BOUNDARY
-1,1,3
-2,2,3
-*SPRING,ELSET=EALL
-10.
-*STEP,NLGEOM
-*STATIC
-*CLOAD
-2,1,1.
-*NODE PRINT,NSET=NALL
-U
-*END STEP
-</pre>
+### Problem Statement
+
+Find the change in length of a spring that is 1.25m under a concentrated force of 25N. The spring stiffness can be taken as 12.5 N/m.
