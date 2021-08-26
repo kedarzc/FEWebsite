@@ -20,13 +20,13 @@ footnotereturnlinkcontents = "↩"
     weight = 1
 
 [[menu.main]]
-    name = "Developing a finite element code"
-    url = "/developingFE/"
+    name = "Practical Finite Elements"
+    url = "/practicalFE/"
     weight = 2
 
 [[menu.main]]
-    name = "Using finite elements"
-    url = "/usingFEA/"
+    name = "CalculiX Tutorials"
+    url = "/CCXTutorials/"
     weight = 3
 
 [[menu.main]]
