@@ -1,13 +1,15 @@
 ---
 title: Kedar A. Malusare
 ---
-<img src="/images/me_2017.png" style="max-width:25%;min-width:40px;float:middle;"/>
+<img src="/images/Me.jpg" style="max-width:25%;min-width:40px;float:middle;"/>
 
 ## Professional Experience
-* Project Engineer, Stutzki Engineering, 2014-Present
+* Advanced Applications Engineer, 2019-Present
+* Solutions Engineer, Multimechanics, 2019
+* Project Engineer, Stutzki Engineering, 2014-2019
 * Research Assistant, University of Wyoming, 2012-2014
 * Teaching Assistant, University of Wyoming, 2011-2012
-* Lecturer, Mumbai University, 2011-2011
+* Lecturer, Mumbai University, 2011
 
 ## Education
 * M.S., University of Wyoming, Mechanical Engineering, 2011-2014
