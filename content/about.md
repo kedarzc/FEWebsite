@@ -1,7 +1,7 @@
 ---
 title: Kedar A. Malusare
 ---
-<img src="/images/Me.jpg" style="max-width:25%;min-width:40px;float:middle;"/>
+![FEA](/images/Me_face.jpg)
 
 ## Professional Experience
 * Advanced Applications Engineer, 2019-Present
