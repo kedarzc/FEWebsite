@@ -1,7 +1,11 @@
 ---
-title: Using finite elements
+title: Using finite elements using CalculiX
 ---
-## Spring Elements 
+## Description
+Calculix is an excellent non-linear solver but lacks in a easy to use pre and post processor. I use [Mecway](https://mecway.com/) both as pre and post processor. Sometimes I use the natively shipped post processor cgx.
+
+## Simulation Examples
+
 - Static calculation of a linear spring
 - Static calculation of a nonlinear spring
 - Frequency calculation of a spring-mass system
