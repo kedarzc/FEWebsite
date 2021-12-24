@@ -1,0 +1,71 @@
+** Include the mesh
+** ----------------
+*include,input=all.msh
+
+** Include the nodes on which the boundary conditions are applied
+** --------------------------------------------------------------
+*include,input=symx.nam
+*include,input=symy.nam
+*include,input=symz.nam
+
+** Include the nodes on which the loads are applied
+** ------------------------------------------------
+*include,input=load.nam
+
+** Apply the boundary conditions
+** -----------------------------
+*boundary
+Nsymx, 1
+Nsymy, 2
+Nsymz, 3
+
+** Material definition
+** -------------------
+** material definition
+*material, name=S235
+*elastic
+210000,0.3,0
+*density
+7.85e-9
+*plastic
+330, 0, 0
+335, 0.02, 0
+400, 0.04, 0
+480, 0.08, 0
+540, 0.15, 0
+585, 0.24, 0
+1000, 1,0
+
+** Section definition
+** ------------------
+*solid section, elset=Eall, material=S235
+
+** Specify time points at which data are 
+** written to the output database file
+** --------------------------------------
+*time points, name=sampling, generate
+0,1,0.01
+
+** Tensile test, output limited to stress-strain-curve
+** ---------------------------------------------------
+*STEP, NLGEOM,inc=200
+*STATIC
+0.001,1,0.0000001
+
+** Apply displacement
+** ------------------
+*boundary
+*include, input=load.inc
+
+** Request data
+** ------------
+*node print, totals=only, nset=Nload, time points=sampling
+RF
+*el file
+S,PEEQ
+*node file
+U
+** Switch off .dat output
+** ----------------------
+*node print
+*end step

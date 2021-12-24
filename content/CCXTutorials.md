@@ -9,3 +9,4 @@ title: Using finite elements
 - modal dynamic calculation of a spring-mass system
 - Spring between node and ground (Spring1 element)
 - Spring between two nodes acting in a fixed direction (Spring2 element)
+- [Tensile test on a steel specimen]({{< ref "/CCXTutFiles/tensileSpecimenSteel/hello.md" >}})
