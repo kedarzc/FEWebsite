@@ -35,11 +35,16 @@
     
     <item>
       <title>Tension test on a steel specimen</title>
-      <link>/ccxtutfiles/tensilespecimensteel/tensiontest/</link>
+      <link>/ccxtuts/tensiontest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/ccxtutfiles/tensilespecimensteel/tensiontest/</guid>
-      <description>The follwing document is the final report  Tension test  The following are the input files  Main input file  Zug.inp   Mesh file  all.msh   Boundary conditions  symx.nam symy.nam symz.nam   Load nodes  load.nam   Load  load.inc    </description>
+      <guid>/ccxtuts/tensiontest/</guid>
+      <description>The follwing document is the final report  Tension test  The following are the input files   Main input file
+ Zug.inp    Mesh file
+ all.msh    Boundary conditions
+ symx.nam symy.nam symz.nam    Load nodes
+ load.nam    Load
+ load.inc    </description>
     </item>
     
     <item>
