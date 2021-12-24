@@ -1,37 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>/ccxtutfiles/</loc>
+  </url><url>
     <loc>/developingfe/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>/feafatigue/</loc>
+  </url><url>
     <loc>/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/practicalfe/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>/ccxtutfiles/tensilespecimensteel/tensiontest/</loc>
+  </url><url>
+    <loc>/feafatigue/fatiguemain/</loc>
+  </url><url>
     <loc>/ccxtutorials/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/usingfea/</loc>
   </url>
-  
 </urlset>

@@ -5,11 +5,7 @@
     <link>/</link>
     <description>Recent content in Home on Learn Finite Elements</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Developing an FE code</title>
       <link>/developingfe/</link>
@@ -34,6 +30,24 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/practicalfe/</guid>
+      <description> Using FE for fatigue analysis  </description>
+    </item>
+    
+    <item>
+      <title>Tension test on a steel specimen</title>
+      <link>/ccxtutfiles/tensilespecimensteel/tensiontest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/ccxtutfiles/tensilespecimensteel/tensiontest/</guid>
+      <description>The follwing document is the final report  Tension test  The following are the input files  Main input file  Zug.inp   Mesh file  all.msh   Boundary conditions  symx.nam symy.nam symz.nam   Load nodes  load.nam   Load  load.inc    </description>
+    </item>
+    
+    <item>
+      <title>Using FE for Fatigue Calculations</title>
+      <link>/feafatigue/fatiguemain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/feafatigue/fatiguemain/</guid>
       <description></description>
     </item>
     
@@ -43,7 +57,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/ccxtutorials/</guid>
-      <description>Spring Elements  Static calculation of a linear spring Static calculation of a nonlinear spring Frequency calculation of a spring-mass system Frequency calculation of a spring - plane strain element combination modal dynamic calculation of a spring-mass system Spring between node and ground (Spring1 element) Spring between two nodes acting in a fixed direction (Spring2 element)  </description>
+      <description>Spring Elements  Static calculation of a linear spring Static calculation of a nonlinear spring Frequency calculation of a spring-mass system Frequency calculation of a spring - plane strain element combination modal dynamic calculation of a spring-mass system Spring between node and ground (Spring1 element) Spring between two nodes acting in a fixed direction (Spring2 element) Tensile test on a steel specimen  </description>
     </item>
     
     <item>
