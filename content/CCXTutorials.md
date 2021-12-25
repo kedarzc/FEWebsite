@@ -1,5 +1,5 @@
 ---
-title: Using finite elements using CalculiX
+title: Finite elements using CalculiX
 ---
 ## Description
 Calculix is an excellent non-linear solver but lacks in a easy to use pre and post processor. I use [Mecway](https://mecway.com/) both as pre and post processor. Sometimes I use the natively shipped post processor cgx.
