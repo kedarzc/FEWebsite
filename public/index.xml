@@ -22,7 +22,7 @@
       
       <guid>/ccxtutorials/</guid>
       <description>Description Calculix is an excellent non-linear solver but lacks in a easy to use pre and post processor. I use Mecway both as pre and post processor. Sometimes I use the natively shipped post processor cgx.
-Simulation Examples  Static calculation of a linear spring Static calculation of a nonlinear spring Frequency calculation of a spring-mass system Frequency calculation of a spring - plane strain element combination modal dynamic calculation of a spring-mass system Spring between node and ground (Spring1 element) Spring between two nodes acting in a fixed direction (Spring2 element) Tensile test on a steel specimen  </description>
+Simple Simulation Examples  Static calculation of a linear spring Static calculation of a nonlinear spring Frequency calculation of a spring-mass system Frequency calculation of a spring - plane strain element combination Modal dynamic calculation of a spring-mass system Spring between node and ground (Spring1 element) Spring between two nodes acting in a fixed direction (Spring2 element) Circular plate under uniform load - CAX6 elements  Advanced Simulation Examples  Tensile test on a steel specimen  </description>
     </item>
     
     <item>
@@ -41,6 +41,15 @@ Simulation Examples  Static calculation of a linear spring Static calculation of
       
       <guid>/practicalfe/</guid>
       <description> Using FE for fatigue analysis  </description>
+    </item>
+    
+    <item>
+      <title>Simple supported circular plate under uniform pressure</title>
+      <link>/ccxtuts/circularplatecax6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/ccxtuts/circularplatecax6/</guid>
+      <description>The follwing document is the final report  Circular plate - CAX6 Elements  The following are the input files  Main input file  circular_plate_cax6.inp    </description>
     </item>
     
     <item>

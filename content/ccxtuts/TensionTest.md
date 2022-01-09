@@ -1,22 +1,22 @@
 ---
 title: Tension test on a steel specimen
 ---
-![FEA](/ccxtuts/tensileSpecimenSteel/VonMises.png)
+![FEA](/ccxtuts/TensionTestfiles/VonMises.png)
 
 ## The follwing document is the final report
-- [Tension test](/ccxtuts/tensileSpecimenSteel/Report_TensileTest.pdf)
+- [Tension test](/ccxtuts/TensionTestfiles/Report_TensileTest.pdf)
 
 ## The following are the input files
 - Main input file
-    - [Zug.inp](/ccxtuts/tensileSpecimenSteel/Zug.inp)
+    - [Zug.inp](/ccxtuts/TensionTestfiles/Zug.txt)
 
 - Mesh file
-    - [all.msh](/ccxtuts/tensileSpecimenSteel/all.msh)
+    - [all.msh](/ccxtuts/TensionTestfiles/all.txt)
 - Boundary conditions
-    - [symx.nam](/ccxtuts/tensileSpecimenSteel/symx.nam)
-    - [symy.nam](/ccxtuts/tensileSpecimenSteel/symy.nam)
-    - [symz.nam](/ccxtuts/tensileSpecimenSteel/symz.nam)
+    - [symx.nam](/ccxtuts/TensionTestfiles/symx.txt)
+    - [symy.nam](/ccxtuts/TensionTestfiles/symy.txt)
+    - [symz.nam](/ccxtuts/TensionTestfiles/symz.txt)
 - Load nodes
-    - [load.nam](/ccxtuts/tensileSpecimenSteel/load.nam)
+    - [load.nam](/ccxtuts/TensionTestfiles/load.txt)
 - Load
-    - [load.inc](/ccxtuts/tensileSpecimenSteel/load.inc)
+    - [load.inc](/ccxtuts/TensionTestfiles/load.txt)
