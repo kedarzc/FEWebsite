@@ -25,7 +25,7 @@ title: Kedar A. Malusare
 
 
 ## Reports and Conference Proceedings
-* Schultz J., Knowles J. and Malusare K (2017 In review), [Glass Strength under Point Loading](/about_me_pdfs/FacadeTec_2018.pdf), Facade Tectonics, World Congress, May 12-13, 2018
+* Schultz J., Knowles J. and Malusare K (2017), [Glass Strength under Point Loading](/about_me_pdfs/FacadeTec_2018.pdf), Facade Tectonics, World Congress, May 12-13, 2018
 
 * Malusare, K. A., Knowles J.A. and Stutzki C.S. (2017), [Finite Element Analysis of Structural Silicone of Warped Insulated Glass Units](/about_me_pdfs/FEA_WarpedGlass.pdf), Science in the Age of Experience, May 16-18, 2017
 

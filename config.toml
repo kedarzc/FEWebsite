@@ -37,4 +37,4 @@ footnotereturnlinkcontents = "↩"
 # This is a footer that will appear on every page
 [params]
     description = "A website to learn finite elements"
-    footer = "&copy; Kedar A. Malusare, 2021 | [Github](https://github.com/kedarzc) | [LinkedIn](https://www.linkedin.com/in/kedarmalusare/)"
+    footer = "&copy; Kedar A. Malusare, 2022 | [LinkedIn](https://www.linkedin.com/in/kedarmalusare/) | [Github](https://github.com/kedarzc)"
