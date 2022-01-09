@@ -3,6 +3,7 @@ title: Kedar A. Malusare
 ---
 ![FEA](/images/Me_face.jpg)
 
+
 ## Professional Experience
 * Advanced Applications Engineer, 2019-Present
 * Solutions Engineer, Multimechanics, 2019
