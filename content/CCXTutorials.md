@@ -17,5 +17,5 @@ Calculix is an excellent non-linear solver but lacks in a easy to use pre and po
 
 ### Advanced Simulation Examples
 
-
+- [Static displacement of a spring system]({{< ref "/ccxtuts/SpringProblem.md" >}})
 - [Tensile test on a steel specimen]({{< ref "/ccxtuts/TensionTest.md" >}})
