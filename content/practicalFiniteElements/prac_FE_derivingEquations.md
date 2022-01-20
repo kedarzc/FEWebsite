@@ -4,7 +4,7 @@ title: Theory of Finite Elements
 ## Table of contents
 1. [Derivation of the basic equation]({{< ref "prac_FE_derivingEquations.md#derivation-of-basic-equation" >}})
     1. [Fundamentals]({{< ref "prac_FE_derivingEquations.md#fundamentals" >}})
-    2. How to calculate stresses due to applied loads?
+    2. [How to calculate stresses due to applied loads?]({{< ref "prac_FE_derivingEquations.md#how-to-calculate-stresses-due-to-applied-loads" >}})
     3. Dynamics and non-linear analysis
 
 ### Derivation of basic equation
@@ -48,7 +48,7 @@ Let's keep the material simply. Let us assume the material is linear elastic. Th
 
 `$$\sigma=\begin{bmatrix} D \end{bmatrix} \begin{bmatrix} \epsilon \end{bmatrix}$$`
 
-#### How to calculate stresses due to applied loads?
+#### How to calculate stresses due to applied loads
 
 If you carefully look at equations above, you shall notice that if we can *somehow* calculate the displacements `$u,v,w$` then we can compute the strains. If we know the strains, then we can compute the resulting stresses using the material behavior defined by `$D$`.
 
@@ -75,3 +75,17 @@ The total external work is the work done by all external forces as
 Collecting everything, we can the expression for the total potential energy as,
 
 `$$\Pi= \frac{1}{2}\{\sigma\}^T \{\epsilon\} dV - \int_{V} \{u\}^T \{f^b\} dV - \int_{S} \{u\}^T \{f^s\} dS - \Sigma_{i}\{U_{i}\}^T \{{f^i\} }$$`
+
+In finite element analysis we divide the problem into a discrete parts that are represented by a number of finite elements. These elements are interconnected at nodes on the element boundaries. In the finite element approach the displacements measured within each element are assumed to be a function of the displacements of the nodes. Thus, the displacement within the element is related to the displacement of the nodes via an interpolation function known as a shape function. Thus the displacement can be further represented as
+
+`$$\{ u \}_{e} = \begin{bmatrix} S \end{bmatrix}_{e} \{U\}_{nodal} $$`
+
+where, `$\begin{bmatrix} S \end{bmatrix}_{elem}$` is the shape function matrix for the element, `$\{U\}_{nodal}$` is the nodal point displacement vector of the element. For clarity, the displacement within an element for an element with two nodes and four nodes is shown below.
+
+For an element with two nodes `$i$` and `$j$` (Eg. Spring element)
+
+`$$\{ u \}_{e} = \begin{bmatrix} S_{i} & S_{j} \end{bmatrix} \begin{Bmatrix} U_{i} \\ U_{j} \end{Bmatrix} $$`
+
+For an element with 4 nodes `$i,j, k, l$`
+
+`$$\{ u \}_{e} = \begin{bmatrix} S_{i} & S_{j} & S_{k} & S_{l} \end{bmatrix} \begin{Bmatrix} U_{i} \\ U_{j} \\ U_{k} \\ U_{l} \end{Bmatrix} $$`
