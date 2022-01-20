@@ -4,47 +4,74 @@ title: Theory of Finite Elements
 ## Table of contents
 1. [Derivation of the basic equation]({{< ref "prac_FE_derivingEquations.md#derivation-of-basic-equation" >}})
     1. [Fundamentals]({{< ref "prac_FE_derivingEquations.md#fundamentals" >}})
-    2. Minimum potential energy method
+    2. How to calculate stresses due to applied loads?
     3. Dynamics and non-linear analysis
 
 ### Derivation of basic equation
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies turpis urna, at tincidunt nisl feugiat sed. Phasellus sollicitudin ullamcorper ante, in pellentesque neque lobortis vel. Ut semper ipsum vel purus gravida, ut vulputate odio egestas. Cras dui elit, viverra sit amet lacus at, fermentum tristique ligula. Nulla varius ullamcorper convallis. Integer quam risus, fermentum eu diam a, mollis vestibulum sapien. Etiam id libero vitae leo varius mattis. Nunc finibus semper justo at auctor. Praesent a mollis ligula, quis placerat enim. Donec auctor sodales elit nec dapibus.
-
-Proin in velit eu ex consequat commodo ut ultricies ex. Fusce ut nunc maximus, tristique diam ac, venenatis risus. Cras ullamcorper magna vel tristique finibus. In sed fringilla leo. Sed sed nisl et odio tempus aliquam sed in erat. Mauris porttitor lacus purus, vitae mollis est imperdiet imperdiet. Sed ante erat, dignissim vitae ullamcorper ac, venenatis sit amet nulla. Phasellus nec ipsum a lacus pretium porttitor a non sapien. Nulla iaculis, enim ut tincidunt sodales, nisl quam pretium quam, fermentum imperdiet erat nibh a elit. Nullam mattis urna non velit mattis dictum. Cras scelerisque interdum odio, id viverra lacus tincidunt laoreet.
-
-Phasellus in convallis velit. Pellentesque nec nulla nulla. Pellentesque nec lorem luctus, eleifend lectus eu, mattis ligula. Integer facilisis eleifend velit, id molestie ipsum scelerisque vitae. Donec velit sapien, porta ut tellus a, blandit finibus leo. Vivamus aliquet hendrerit imperdiet. Phasellus vel semper neque. Curabitur pharetra bibendum massa, ut pretium erat rutrum rutrum. Praesent laoreet viverra nulla, congue consequat est facilisis sed.
-
-Sed vitae nisl diam. Pellentesque in mi augue. Duis malesuada, enim sed euismod sollicitudin, lectus lacus faucibus turpis, et cursus tortor dolor eget purus. Ut at metus vel eros lobortis tincidunt quis quis ex. Ut ipsum quam, finibus tempus dignissim quis, egestas non massa. Pellentesque ligula sapien, porta ac commodo maximus, bibendum nec elit. Vivamus tristique nisi pretium euismod tristique.
-
-Suspendisse elementum blandit leo. Nullam ac aliquet neque. Maecenas vitae libero in eros mollis efficitur. Donec id eleifend lacus, convallis aliquam eros. Quisque nec pulvinar lacus. Duis quam massa, fermentum in porttitor ac, dictum ac justo. Quisque suscipit turpis eros, et scelerisque nibh tempor pulvinar. Integer sem nisl, ornare vitae mi in, venenatis vulputate felis. Integer feugiat, nibh quis ullamcorper imperdiet, felis magna feugiat massa, a finibus justo velit quis nunc. Integer nisi lectus, ultricies ut ante a, ultrices interdum lectus. Vestibulum ipsum odio, bibendum luctus fringilla sed, feugiat quis arcu.
-
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut elementum enim lacus, eget lobortis metus imperdiet sed. Nam ut dignissim tortor. Morbi posuere tristique lorem non tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras bibendum venenatis maximus. Aliquam sed erat a felis fringilla luctus a rhoncus velit. Quisque sollicitudin nec mi et hendrerit. Nam vitae metus quis sem efficitur egestas sed a metus.
-
-Nam venenatis felis et est fermentum molestie. Praesent dapibus aliquam eros, in pharetra sapien consectetur non. In hac habitasse platea dictumst. Fusce placerat vestibulum interdum. Ut ullamcorper placerat pharetra. Suspendisse potenti. Nunc tincidunt in sem a suscipit.
-
-Nunc sodales bibendum ipsum, non iaculis turpis iaculis eu. Integer vel mi sem. Aliquam non sem sed lectus finibus venenatis vitae vel ante. Aenean sollicitudin vel justo sit amet luctus. Etiam in nisi a tellus vulputate dignissim at at lectus. Proin condimentum tempus diam aliquam vulputate. Quisque neque mauris, feugiat nec ex ut, tincidunt scelerisque quam. Donec aliquet ex quis velit molestie dignissim. Pellentesque luctus ante eu convallis rutrum. Duis sit amet nisi arcu. Fusce lobortis tellus lorem, ut facilisis sem rutrum in. Maecenas at molestie felis, id vulputate erat. Nunc hendrerit fermentum eros, eget fringilla erat aliquam eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Aliquam mi elit, lacinia at laoreet sit amet, ullamcorper sed velit. Mauris lorem nisi, vestibulum vitae lobortis id, fermentum quis sapien. Donec accumsan magna eget libero tincidunt venenatis. Ut iaculis rutrum orci eget varius. Nunc hendrerit mattis turpis sit amet rhoncus. Nunc euismod nulla nec nunc commodo sagittis. Aenean commodo pulvinar erat non molestie. Donec sit amet felis finibus, tincidunt purus eu, fringilla nulla. Pellentesque vestibulum felis est, at vulputate ipsum congue vel. Cras laoreet augue id suscipit congue. Fusce sit amet accumsan leo, vitae blandit neque.
-
-Nam ac tristique magna, mattis pharetra neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut sagittis nibh dui, non aliquam ante sollicitudin quis. Proin gravida magna turpis, non convallis ex luctus id. Curabitur consectetur augue et sapien lobortis, eget vehicula sapien ultrices. Nam convallis magna vitae nunc congue mollis. Etiam a scelerisque est. Sed volutpat, magna at convallis placerat, lorem erat tempus arcu, sit amet tempor enim est eu sem.
 
 #### Fundamentals
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies turpis urna, at tincidunt nisl feugiat sed. Phasellus sollicitudin ullamcorper ante, in pellentesque neque lobortis vel. Ut semper ipsum vel purus gravida, ut vulputate odio egestas. Cras dui elit, viverra sit amet lacus at, fermentum tristique ligula. Nulla varius ullamcorper convallis. Integer quam risus, fermentum eu diam a, mollis vestibulum sapien. Etiam id libero vitae leo varius mattis. Nunc finibus semper justo at auctor. Praesent a mollis ligula, quis placerat enim. Donec auctor sodales elit nec dapibus.
+Let us consider a 3D body of volume V. It has an external surface S, with points on the body that are defined by co-ordinates `$x, y, z$`. A portion of he body `$S_{u}$` is constrained as shown below. A distributed force per unit area `$f_{s}$` acts on a portion of the boundary surface `$S_{fs}$`.
 
-Proin in velit eu ex consequat commodo ut ultricies ex. Fusce ut nunc maximus, tristique diam ac, venenatis risus. Cras ullamcorper magna vel tristique finibus. In sed fringilla leo. Sed sed nisl et odio tempus aliquam sed in erat. Mauris porttitor lacus purus, vitae mollis est imperdiet imperdiet. Sed ante erat, dignissim vitae ullamcorper ac, venenatis sit amet nulla. Phasellus nec ipsum a lacus pretium porttitor a non sapien. Nulla iaculis, enim ut tincidunt sodales, nisl quam pretium quam, fermentum imperdiet erat nibh a elit. Nullam mattis urna non velit mattis dictum. Cras scelerisque interdum odio, id viverra lacus tincidunt laoreet.
+Let's assume that the body deforms under the action of this force. Then the deformation of any point in the body is given by the three components of it's displacement as
 
-Phasellus in convallis velit. Pellentesque nec nulla nulla. Pellentesque nec lorem luctus, eleifend lectus eu, mattis ligula. Integer facilisis eleifend velit, id molestie ipsum scelerisque vitae. Donec velit sapien, porta ut tellus a, blandit finibus leo. Vivamus aliquet hendrerit imperdiet. Phasellus vel semper neque. Curabitur pharetra bibendum massa, ut pretium erat rutrum rutrum. Praesent laoreet viverra nulla, congue consequat est facilisis sed.
+`$$\{{u}\} = \begin{bmatrix} u \\ v \\ w \end{bmatrix}$$`
 
-Sed vitae nisl diam. Pellentesque in mi augue. Duis malesuada, enim sed euismod sollicitudin, lectus lacus faucibus turpis, et cursus tortor dolor eget purus. Ut at metus vel eros lobortis tincidunt quis quis ex. Ut ipsum quam, finibus tempus dignissim quis, egestas non massa. Pellentesque ligula sapien, porta ac commodo maximus, bibendum nec elit. Vivamus tristique nisi pretium euismod tristique.
+where, `$u,v,w$` are displacements in the `$x,y,z$` directions.
 
-Suspendisse elementum blandit leo. Nullam ac aliquet neque. Maecenas vitae libero in eros mollis efficitur. Donec id eleifend lacus, convallis aliquam eros. Quisque nec pulvinar lacus. Duis quam massa, fermentum in porttitor ac, dictum ac justo. Quisque suscipit turpis eros, et scelerisque nibh tempor pulvinar. Integer sem nisl, ornare vitae mi in, venenatis vulputate felis. Integer feugiat, nibh quis ullamcorper imperdiet, felis magna feugiat massa, a finibus justo velit quis nunc. Integer nisi lectus, ultricies ut ante a, ultrices interdum lectus. Vestibulum ipsum odio, bibendum luctus fringilla sed, feugiat quis arcu.
+A distributed force per unit volume `$f_{b}$` may act on the body. This is given by
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut elementum enim lacus, eget lobortis metus imperdiet sed. Nam ut dignissim tortor. Morbi posuere tristique lorem non tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras bibendum venenatis maximus. Aliquam sed erat a felis fringilla luctus a rhoncus velit. Quisque sollicitudin nec mi et hendrerit. Nam vitae metus quis sem efficitur egestas sed a metus.
+`$$\{{f^{b}}\} = \begin{bmatrix} f_{x}^b \\ f_{y}^b \\ f_{z}^b \end{bmatrix}$$`
 
-Nam venenatis felis et est fermentum molestie. Praesent dapibus aliquam eros, in pharetra sapien consectetur non. In hac habitasse platea dictumst. Fusce placerat vestibulum interdum. Ut ullamcorper placerat pharetra. Suspendisse potenti. Nunc tincidunt in sem a suscipit.
+Examples of `$f^b\rightarrow$` gravity loads.
 
-Nunc sodales bibendum ipsum, non iaculis turpis iaculis eu. Integer vel mi sem. Aliquam non sem sed lectus finibus venenatis vitae vel ante. Aenean sollicitudin vel justo sit amet luctus. Etiam in nisi a tellus vulputate dignissim at at lectus. Proin condimentum tempus diam aliquam vulputate. Quisque neque mauris, feugiat nec ex ut, tincidunt scelerisque quam. Donec aliquet ex quis velit molestie dignissim. Pellentesque luctus ante eu convallis rutrum. Duis sit amet nisi arcu. Fusce lobortis tellus lorem, ut facilisis sem rutrum in. Maecenas at molestie felis, id vulputate erat. Nunc hendrerit fermentum eros, eget fringilla erat aliquam eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+The surface loads is given by it's components as
 
-Aliquam mi elit, lacinia at laoreet sit amet, ullamcorper sed velit. Mauris lorem nisi, vestibulum vitae lobortis id, fermentum quis sapien. Donec accumsan magna eget libero tincidunt venenatis. Ut iaculis rutrum orci eget varius. Nunc hendrerit mattis turpis sit amet rhoncus. Nunc euismod nulla nec nunc commodo sagittis. Aenean commodo pulvinar erat non molestie. Donec sit amet felis finibus, tincidunt purus eu, fringilla nulla. Pellentesque vestibulum felis est, at vulputate ipsum congue vel. Cras laoreet augue id suscipit congue. Fusce sit amet accumsan leo, vitae blandit neque.
+ `$$\{{f^{s}}\} = \begin{bmatrix} f_{x}^s \\ f_{y}^s \\ f_{z}^s \end{bmatrix}$$`
 
-Nam ac tristique magna, mattis pharetra neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut sagittis nibh dui, non aliquam ante sollicitudin quis. Proin gravida magna turpis, non convallis ex luctus id. Curabitur consectetur augue et sapien lobortis, eget vehicula sapien ultrices. Nam convallis magna vitae nunc congue mollis. Etiam a scelerisque est. Sed volutpat, magna at convallis placerat, lorem erat tempus arcu, sit amet tempor enim est eu sem.
+Examples of `$f^s\rightarrow$` pressure loads, contact forces.
+
+Point load `$f$` acting at a point `$i$` is given by
+
+ `$$\{{f^{i}}\} = \begin{bmatrix} f_{x}^i \\ f_{y}^i \\ f_{z}^i \end{bmatrix}$$`
+
+ The resulting stresses and strains are given by
+ `$$\{{\sigma}\} = \begin{bmatrix} \sigma_{xx} \\ \sigma_{yy}  \\ \sigma_{zz}  \\ \tau_{xy} \\ \tau_{xz} \\ \tau_{yz} \end{bmatrix}$$`
+
+ `$$\{{\epsilon}\} = \begin{bmatrix} \epsilon_{xx} \\ \epsilon_{yy}  \\ \epsilon_{zz}  \\ \gamma_{xy} \\ \gamma_{xz} \\ \gamma_{yz} \end{bmatrix}$$`
+
+ We can relate the strains to displacement using
+
+ `$$\{{\epsilon}\} = \begin{bmatrix} \frac{\delta u}{\delta x} \\ \frac{\delta v}{\delta x}  \\ \frac{\delta w}{\delta x}  
+  \\ \frac{\delta v}{\delta x} + \frac{\delta u}{\delta y} \\ \frac{\delta v}{\delta x} + \frac{\delta u}{\delta z}  \\ \frac{\delta w}{\delta y} + \frac{\delta v}{\delta z} \end{bmatrix}$$`
+
+Let's keep the material simply. Let us assume the material is linear elastic. Then, we can related the stress to strain as
+
+`$$\sigma=\begin{bmatrix} D \end{bmatrix} \begin{bmatrix} \epsilon \end{bmatrix}$$`
+
+#### How to calculate stresses due to applied loads?
+
+If you carefully look at equations above, you shall notice that if we can *somehow* calculate the displacements `$u,v,w$` then we can compute the strains. If we know the strains, then we can compute the resulting stresses using the material behavior defined by `$D$`.
+
+So long story short, to get to the stresses, we need to compute the displacements due to the applied loads.
+
+There are many different methods to get to the displacements. We will use the principle of *Minimum Potential Energy* here. It states that, as long as the system is stable, the total potential energy `$\Pi$` of that system is zero.
+
+`$$\frac{\delta \Pi}{\delta U}= 0$$`
+
+The total potential energy of a system is given by the sum of the strain energy and the sum of work done by external forces. Thus, `$\Pi = $` strain energy + external work
+
+For a linear elastic body, the strain energy per unit volume is given by
+
+`$$\pi_{s} = \frac{1}{2}\{\sigma\}^T \{\epsilon\}$$`
+
+Thus total strain energy for the volume is
+
+`$$\Pi_{s} = \frac{1}{2}\int_{V} \{\sigma\}^T \{\epsilon\} dV$$`
+
+The total external work is the work done by all external forces as
+
+`$$\Pi_w = - \int_{V} \{u\}^T \{f^b\} dV - \int_{S} \{u\}^T \{f^s\} dS - \Sigma_{i}\{U_{i}\}^T \{{f^i\} }$$`
+
+Collecting everything, we can the expression for the total potential energy as,
+
+`$$\Pi= \frac{1}{2}\{\sigma\}^T \{\epsilon\} dV - \int_{V} \{u\}^T \{f^b\} dV - \int_{S} \{u\}^T \{f^s\} dS - \Sigma_{i}\{U_{i}\}^T \{{f^i\} }$$`
