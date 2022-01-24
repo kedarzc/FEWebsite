@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Theory of Finite Elements | Learn Finite Elements</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/practicalfe/">Practical Finite Elements</a></li>
+      
+      <li><a href="/ccxtutorials/">CalculiX Tutorials</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Theory of Finite Elements</span></h1>
+
+
+</div>
+
+<main>
+<h2 id="table-of-contents">Table of contents</h2>
+<ol>
+<li><a href="/practicalfiniteelements/prac_fe_derivingequations/#derivation-of-basic-equation">Derivation of the basic equation</a>
+<ol>
+<li><a href="/practicalfiniteelements/prac_fe_derivingequations/#fundamentals">Fundamentals</a></li>
+<li><a href="/practicalfiniteelements/prac_fe_derivingequations/#how-to-calculate-stresses-due-to-applied-loads">How to calculate stresses due to applied loads?</a></li>
+<li>Dynamics and non-linear analysis</li>
+</ol>
+</li>
+</ol>
+<h3 id="derivation-of-basic-equation">Derivation of basic equation</h3>
+<h4 id="fundamentals">Fundamentals</h4>
+<p>Let us consider a 3D body of volume V. It has an external surface S, with points on the body that are defined by co-ordinates <code>$x, y, z$</code>. A portion of he body <code>$S_{u}$</code> is constrained as shown below. A distributed force per unit area <code>$f_{s}$</code> acts on a portion of the boundary surface <code>$S_{fs}$</code>.</p>
+<p>Let&rsquo;s assume that the body deforms under the action of this force. Then the deformation of any point in the body is given by the three components of it&rsquo;s displacement as</p>
+<p><code>$$\{{u}\} = \begin{bmatrix} u \\ v \\ w \end{bmatrix}$$</code></p>
+<p>where, <code>$u,v,w$</code> are displacements in the <code>$x,y,z$</code> directions.</p>
+<p>A distributed force per unit volume <code>$f_{b}$</code> may act on the body. This is given by</p>
+<p><code>$$\{{f^{b}}\} = \begin{bmatrix} f_{x}^b \\ f_{y}^b \\ f_{z}^b \end{bmatrix}$$</code></p>
+<p>Examples of <code>$f^b\rightarrow$</code> gravity loads.</p>
+<p>The surface loads is given by it&rsquo;s components as</p>
+<p><code>$$\{{f^{s}}\} = \begin{bmatrix} f_{x}^s \\ f_{y}^s \\ f_{z}^s \end{bmatrix}$$</code></p>
+<p>Examples of <code>$f^s\rightarrow$</code> pressure loads, contact forces.</p>
+<p>Point load <code>$f$</code> acting at a point <code>$i$</code> is given by</p>
+<p><code>$$\{{f^{i}}\} = \begin{bmatrix} f_{x}^i \\ f_{y}^i \\ f_{z}^i \end{bmatrix}$$</code></p>
+<p>The resulting stresses and strains are given by
+<code>$$\{{\sigma}\} = \begin{bmatrix} \sigma_{xx} \\ \sigma_{yy}  \\ \sigma_{zz}  \\ \tau_{xy} \\ \tau_{xz} \\ \tau_{yz} \end{bmatrix}$$</code></p>
+<p><code>$$\{{\epsilon}\} = \begin{bmatrix} \epsilon_{xx} \\ \epsilon_{yy}  \\ \epsilon_{zz}  \\ \gamma_{xy} \\ \gamma_{xz} \\ \gamma_{yz} \end{bmatrix}$$</code></p>
+<p>We can relate the strains to displacement using</p>
+<p><code>$$\{{\epsilon}\} = \begin{bmatrix} \frac{\delta u}{\delta x} \\ \frac{\delta v}{\delta x}  \\ \frac{\delta w}{\delta x}   \\ \frac{\delta v}{\delta x} + \frac{\delta u}{\delta y} \\ \frac{\delta v}{\delta x} + \frac{\delta u}{\delta z}  \\ \frac{\delta w}{\delta y} + \frac{\delta v}{\delta z} \end{bmatrix}$$</code></p>
+<p>Let&rsquo;s keep the material simply. Let us assume the material is linear elastic. Then, we can related the stress to strain as</p>
+<p><code>$$\sigma=\begin{bmatrix} D \end{bmatrix} \begin{bmatrix} \epsilon \end{bmatrix}$$</code></p>
+<h4 id="how-to-calculate-stresses-due-to-applied-loads">How to calculate stresses due to applied loads</h4>
+<p>If you carefully look at equations above, you shall notice that if we can <em>somehow</em> calculate the displacements <code>$u,v,w$</code> then we can compute the strains. If we know the strains, then we can compute the resulting stresses using the material behavior defined by <code>$D$</code>.</p>
+<p>So long story short, to get to the stresses, we need to compute the displacements due to the applied loads.</p>
+<p>There are many different methods to get to the displacements. We will use the principle of <em>Minimum Potential Energy</em> here. It states that, as long as the system is stable, the total potential energy <code>$\Pi$</code> of that system is zero.</p>
+<p><code>$$\frac{\delta \Pi}{\delta U}= 0$$</code></p>
+<p>The total potential energy of a system is given by the sum of the strain energy and the sum of work done by external forces. Thus, <code>$\Pi = $</code> strain energy + external work</p>
+<p>For a linear elastic body, the strain energy per unit volume is given by</p>
+<p><code>$$\pi_{s} = \frac{1}{2}\{\sigma\}^T \{\epsilon\}$$</code></p>
+<p>Thus total strain energy for the volume is</p>
+<p><code>$$\Pi_{s} = \frac{1}{2}\int_{V} \{\sigma\}^T \{\epsilon\} dV$$</code></p>
+<p>The total external work is the work done by all external forces as</p>
+<p><code>$$\Pi_w = - \int_{V} \{u\}^T \{f^b\} dV - \int_{S} \{u\}^T \{f^s\} dS - \Sigma_{i}\{U_{i}\}^T \{{f^i\} }$$</code></p>
+<p>Collecting everything, we can the expression for the total potential energy as,</p>
+<p><code>$$\Pi= \frac{1}{2}\{\sigma\}^T \{\epsilon\} dV - \int_{V} \{u\}^T \{f^b\} dV - \int_{S} \{u\}^T \{f^s\} dS - \Sigma_{i}\{U_{i}\}^T \{{f^i\} }$$</code></p>
+<p>In finite element analysis we divide the problem into a discrete parts that are represented by a number of finite elements. These elements are interconnected at nodes on the element boundaries. In the finite element approach the displacements measured within each element are assumed to be a function of the displacements of the nodes. Thus, the displacement within the element is related to the displacement of the nodes via an interpolation function known as a shape function. Thus the displacement can be further represented as</p>
+<p><code>$$\{ u \}_{e} = \begin{bmatrix} S \end{bmatrix}_{e} \{U\}_{nodal} $$</code></p>
+<p>where, <code>$\begin{bmatrix} S \end{bmatrix}_{elem}$</code> is the shape function matrix for the element, <code>$\{U\}_{nodal}$</code> is the nodal point displacement vector of the element. For clarity, the displacement within an element for an element with two nodes and four nodes is shown below.</p>
+<p>For an element with two nodes <code>$i$</code> and <code>$j$</code> (Eg. Spring element)</p>
+<p><code>$$\{ u \}_{e} = \begin{bmatrix} S_{i} &amp; S_{j} \end{bmatrix} \begin{Bmatrix} U_{i} \\ U_{j} \end{Bmatrix} $$</code></p>
+<p>For an element with 4 nodes <code>$i,j, k, l$</code></p>
+<p><code>$$\{ u \}_{e} = \begin{bmatrix} S_{i} &amp; S_{j} &amp; S_{k} &amp; S_{l} \end{bmatrix} \begin{Bmatrix} U_{i} \\ U_{j} \\ U_{k} \\ U_{l} \end{Bmatrix} $$</code></p>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  © Kedar A. Malusare, 2022 | <a href="https://www.linkedin.com/in/kedarmalusare/">LinkedIn</a> | <a href="https://github.com/kedarzc">Github</a>
+  
+  </footer>
+  </body>
+</html>
+

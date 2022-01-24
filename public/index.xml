@@ -40,7 +40,7 @@ Simple Simulation Examples  Static calculation of a linear spring Static calcula
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/practicalfe/</guid>
-      <description>General Observation I have observed over my years at the University and later that most of the information out there available for engineering regarding finite elements is mostly theoretical. A practicing engineer thus is forced to learn through his/her own experience or from his peers. This information on this page tries to teach the more practical aspects of finite elements. I will skip the introduction because you can always pick up a textbook and read about it.</description>
+      <description>General Observation I have observed during my years at the University and later during working in the industry that most of the information out there available for engineers regarding finite elements is mostly theoretical. A practicing engineer thus is forced to learn through his/her own experience or from their peers. The information on this page tries to teach the more practical aspects of finite elements. I will skip the introduction because you can always pick up a textbook and read about it.</description>
     </item>
     
     <item>
@@ -50,6 +50,15 @@ Simple Simulation Examples  Static calculation of a linear spring Static calcula
       
       <guid>/ccxtuts/circularplatecax6/</guid>
       <description>The follwing document is the final report  Circular plate - CAX6 Elements  The following are the input files  Main input file  circular_plate_cax6.inp    </description>
+    </item>
+    
+    <item>
+      <title>Static calculation of a linear spring</title>
+      <link>/ccxtuts/staticlinspring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/ccxtuts/staticlinspring/</guid>
+      <description>The follwing document is the final report  Linear Spring  The following is the input file  Static analysis of a linear spring  </description>
     </item>
     
     <item>
@@ -73,6 +82,15 @@ Simple Simulation Examples  Static calculation of a linear spring Static calcula
  symx.nam symy.nam symz.nam    Load nodes
  load.nam    Load
  load.inc    </description>
+    </item>
+    
+    <item>
+      <title>Theory of Finite Elements</title>
+      <link>/practicalfiniteelements/prac_fe_derivingequations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/practicalfiniteelements/prac_fe_derivingequations/</guid>
+      <description>Table of contents  Derivation of the basic equation  Fundamentals How to calculate stresses due to applied loads? Dynamics and non-linear analysis    Derivation of basic equation Fundamentals Let us consider a 3D body of volume V. It has an external surface S, with points on the body that are defined by co-ordinates $x, y, z$. A portion of he body $S_{u}$ is constrained as shown below. A distributed force per unit area $f_{s}$ acts on a portion of the boundary surface $S_{fs}$.</description>
     </item>
     
     <item>

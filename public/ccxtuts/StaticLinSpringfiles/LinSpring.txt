@@ -1,0 +1,36 @@
+** Linear Spring subjected to a Concentrated Load
+** Node Definition
+** ---------------
+*NODE,NSET=NALL
+1,0.,0.,0.
+2,1.,0.,0.
+** Element Definition
+** ------------------
+*ELEMENT,TYPE=SPRINGA,ELSET=EALL
+1,1,2
+** Applying boundary conditions
+** ----------------------------
+*BOUNDARY
+1,1,3
+2,2,3
+** Spring stiffness
+** ----------------
+*SPRING,ELSET=EALL
+5.65
+** Create Step
+** -----------
+*STEP,NLGEOM
+*STATIC
+** Apply Load
+** ----------
+*CLOAD
+2,1,2.25
+** Request Outputs
+** ---------------
+*NODE PRINT,NSET=NALL
+U
+*NODE FILE
+U
+*EL FILE
+S
+*END STEP

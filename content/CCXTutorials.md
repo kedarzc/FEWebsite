@@ -6,7 +6,7 @@ Calculix is an excellent non-linear solver but lacks in a easy to use pre and po
 
 ### Simple Simulation Examples
 
-- Static calculation of a linear spring
+- [Static calculation of a linear spring]({{< ref "/ccxtuts/StaticLinSpring.md" >}})
 - Static calculation of a nonlinear spring
 - Frequency calculation of a spring-mass system
 - Frequency calculation of a spring - plane strain element combination
