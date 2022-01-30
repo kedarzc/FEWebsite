@@ -3,7 +3,7 @@ title: Home
 ---
 <br/>
 
-![FEA](/images/FEA_main_page.jpg)
+![FEA](/images/FEA_main_page_new.jpg)
 
 <br/><br/>
 
