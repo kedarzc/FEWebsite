@@ -25,6 +25,15 @@
     </item>
     
     <item>
+      <title>Static calculation of a non-linear spring</title>
+      <link>/ccxtuts/staticnonlinspring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/ccxtuts/staticnonlinspring/</guid>
+      <description>The follwing document is the final report  Non-linear Spring  The following is the input file  Static analysis of a non-linear spring  </description>
+    </item>
+    
+    <item>
       <title>Static displacement - Spring system</title>
       <link>/ccxtuts/springproblem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
