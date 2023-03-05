@@ -12,7 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/ccxtuts/circularplatecax6/</guid>
-      <description>The follwing document is the final report  Circular plate - CAX6 Elements  The following are the input files  Main input file  circular_plate_cax6.inp    </description>
+      <description>
+The follwing document is the final report Circular plate - CAX6 Elements The following are the input files Main input file circular_plate_cax6.inp </description>
     </item>
     
     <item>
@@ -21,7 +22,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/ccxtuts/staticlinspring/</guid>
-      <description>The follwing document is the final report  Linear Spring  The following is the input file  Static analysis of a linear spring  </description>
+      <description>
+The follwing document is the final report Linear Spring The following is the input file Static analysis of a linear spring </description>
     </item>
     
     <item>
@@ -30,7 +32,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/ccxtuts/staticnonlinspring/</guid>
-      <description>The follwing document is the final report  Non-linear Spring  The following is the input file  Static analysis of a non-linear spring  </description>
+      <description>
+The follwing document is the final report Non-linear Spring The following is the input file Static analysis of a non-linear spring </description>
     </item>
     
     <item>
@@ -39,7 +42,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/ccxtuts/springproblem/</guid>
-      <description>The follwing document is the final report  Spring Problem Report  The following are the input files  Main input file  SpringProblem.inp    </description>
+      <description>
+The follwing document is the final report Spring Problem Report The following are the input files Main input file SpringProblem.inp </description>
     </item>
     
     <item>
@@ -48,12 +52,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/ccxtuts/tensiontest/</guid>
-      <description>The follwing document is the final report  Tension test  The following are the input files   Main input file
- Zug.inp    Mesh file
- all.msh    Boundary conditions
- symx.nam symy.nam symz.nam    Load nodes
- load.nam    Load
- load.inc    </description>
+      <description>
+The follwing document is the final report Tension test The following are the input files Main input file
+Zug.inp Mesh file
+all.msh Boundary conditions
+symx.nam symy.nam symz.nam Load nodes
+load.nam Load
+load.inc </description>
     </item>
     
   </channel>

@@ -22,7 +22,7 @@
       
       <guid>/ccxtutorials/</guid>
       <description>Description Calculix is an excellent non-linear solver but lacks in a easy to use pre and post processor. I use Mecway both as pre and post processor. Sometimes I use the natively shipped post processor cgx.
-Simple Simulation Examples  Static calculation of a linear spring Static calculation of a nonlinear spring Frequency calculation of a spring-mass system Frequency calculation of a spring - plane strain element combination Modal dynamic calculation of a spring-mass system Spring between node and ground (Spring1 element) Spring between two nodes acting in a fixed direction (Spring2 element) Circular plate under uniform load - CAX6 elements  Advanced Simulation Examples  Static displacement of a spring system Tensile test on a steel specimen  </description>
+Simple Simulation Examples Static calculation of a linear spring Static calculation of a nonlinear spring Frequency calculation of a spring-mass system Frequency calculation of a spring - plane strain element combination Modal dynamic calculation of a spring-mass system Spring between node and ground (Spring1 element) Spring between two nodes acting in a fixed direction (Spring2 element) Circular plate under uniform load - CAX6 elements Advanced Simulation Examples Static displacement of a spring system Tensile test on a steel specimen </description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@ Simple Simulation Examples  Static calculation of a linear spring Static calcula
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Professional Experience  Advanced Applications Engineer, 2019-Present Solutions Engineer, Multimechanics, 2019 Project Engineer, Stutzki Engineering, 2014-2019 Research Assistant, University of Wyoming, 2012-2014 Teaching Assistant, University of Wyoming, 2011-2012 Lecturer, Mumbai University, 2011  Education  M.S., University of Wyoming, Mechanical Engineering, 2011-2014 B.E., Mumbai University, Mechanical Engineering, 2006-2010  Interests  Finite Element Analysis Composite Materials Software development  Journal Publications  Malusare, K. A. and R. S. Fertig III. (2014), Composite interaction energy and constituent average stresses for predicting composite failure, AIAA Journal, Vol.</description>
+      <description>Professional Experience Advanced Applications Engineer, 2019-Present Solutions Engineer, Multimechanics, 2019 Project Engineer, Stutzki Engineering, 2014-2019 Research Assistant, University of Wyoming, 2012-2014 Teaching Assistant, University of Wyoming, 2011-2012 Lecturer, Mumbai University, 2011 Education M.S., University of Wyoming, Mechanical Engineering, 2011-2014 B.E., Mumbai University, Mechanical Engineering, 2006-2010 Interests Finite Element Analysis Composite Materials Software development Journal Publications Malusare, K. A. and R. S. Fertig III. (2014), Composite interaction energy and constituent average stresses for predicting composite failure, AIAA Journal, Vol.</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@ Simple Simulation Examples  Static calculation of a linear spring Static calcula
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/practicalfe/</guid>
-      <description>General Observation &amp;laquo;&amp;laquo;&amp;laquo;&amp;lt; Updated upstream I have observed during my years at the University and later during working in the industry that most of the information out there available for engineers regarding finite elements is mostly theoretical. A practicing engineer thus is forced to learn through his/her own experience or from their peers. The information on this page tries to teach the more practical aspects of finite elements. I will skip the introduction because you can always pick up a textbook and read about it.</description>
+      <description>General Observation I have observed during my years at the University and later during working in the industry that most of the information out there available for engineers regarding finite elements is mostly theoretical. A practicing engineer thus is forced to learn through his/her own experience or from their peers. The information on this page tries to teach the more practical aspects of finite elements. I will skip the introduction because you can always pick up a textbook and read about it.</description>
     </item>
     
     <item>
@@ -49,7 +49,8 @@ Simple Simulation Examples  Static calculation of a linear spring Static calcula
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/ccxtuts/circularplatecax6/</guid>
-      <description>The follwing document is the final report  Circular plate - CAX6 Elements  The following are the input files  Main input file  circular_plate_cax6.inp    </description>
+      <description>
+The follwing document is the final report Circular plate - CAX6 Elements The following are the input files Main input file circular_plate_cax6.inp </description>
     </item>
     
     <item>
@@ -58,7 +59,8 @@ Simple Simulation Examples  Static calculation of a linear spring Static calcula
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/ccxtuts/staticlinspring/</guid>
-      <description>The follwing document is the final report  Linear Spring  The following is the input file  Static analysis of a linear spring  </description>
+      <description>
+The follwing document is the final report Linear Spring The following is the input file Static analysis of a linear spring </description>
     </item>
     
     <item>
@@ -67,7 +69,8 @@ Simple Simulation Examples  Static calculation of a linear spring Static calcula
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/ccxtuts/staticnonlinspring/</guid>
-      <description>The follwing document is the final report  Non-linear Spring  The following is the input file  Static analysis of a non-linear spring  </description>
+      <description>
+The follwing document is the final report Non-linear Spring The following is the input file Static analysis of a non-linear spring </description>
     </item>
     
     <item>
@@ -76,7 +79,8 @@ Simple Simulation Examples  Static calculation of a linear spring Static calcula
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/ccxtuts/springproblem/</guid>
-      <description>The follwing document is the final report  Spring Problem Report  The following are the input files  Main input file  SpringProblem.inp    </description>
+      <description>
+The follwing document is the final report Spring Problem Report The following are the input files Main input file SpringProblem.inp </description>
     </item>
     
     <item>
@@ -85,12 +89,13 @@ Simple Simulation Examples  Static calculation of a linear spring Static calcula
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/ccxtuts/tensiontest/</guid>
-      <description>The follwing document is the final report  Tension test  The following are the input files   Main input file
- Zug.inp    Mesh file
- all.msh    Boundary conditions
- symx.nam symy.nam symz.nam    Load nodes
- load.nam    Load
- load.inc    </description>
+      <description>
+The follwing document is the final report Tension test The following are the input files Main input file
+Zug.inp Mesh file
+all.msh Boundary conditions
+symx.nam symy.nam symz.nam Load nodes
+load.nam Load
+load.inc </description>
     </item>
     
     <item>
@@ -99,7 +104,7 @@ Simple Simulation Examples  Static calculation of a linear spring Static calcula
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/practicalfiniteelements/prac_fe_derivingequations/</guid>
-      <description>Table of contents  Derivation of the basic equation  Fundamentals How to calculate stresses due to applied loads? Dynamics and non-linear analysis    Derivation of basic equation Fundamentals Let us consider a 3D body of volume V. It has an external surface S, with points on the body that are defined by co-ordinates $x, y, z$. A portion of he body $S_{u}$ is constrained as shown below. A distributed force per unit area $f_{s}$ acts on a portion of the boundary surface $S_{fs}$.</description>
+      <description>Table of contents Derivation of the basic equation Fundamentals How to calculate stresses due to applied loads? Dynamics and non-linear analysis Derivation of basic equation Fundamentals Let us consider a 3D body of volume V. It has an external surface S, with points on the body that are defined by co-ordinates $x, y, z$. A portion of he body $S_{u}$ is constrained as shown below. A distributed force per unit area $f_{s}$ acts on a portion of the boundary surface $S_{fs}$.</description>
     </item>
     
     <item>
@@ -108,7 +113,7 @@ Simple Simulation Examples  Static calculation of a linear spring Static calcula
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/usingfea/</guid>
-      <description>Basic Mechanics of Materials  Stress Strain Mechanical Properties of Materials Axial Load Torsion Bending Transverse Shear Combined Loading Stress Transformation Strain Transformation Design of Beams and shafts Deflection of Beams and Shafts Buckling of Columns (Problem 1) Energy Methods  Intermediate Mechanics of Materials  Stress and Strain Material Description Basic Structural Members Composite Structural Members Inelastic Structural Behavior Thin Walled Structural Members Energy Methods Elasticity and Mechanics of Materials  Advanced Mechanics of Materials  Stress and Strain One Dimensional Structural Member Influence Functions Stability Plates Introduction to Elasticity Variational and Energy Methods  </description>
+      <description>Basic Mechanics of Materials Stress Strain Mechanical Properties of Materials Axial Load Torsion Bending Transverse Shear Combined Loading Stress Transformation Strain Transformation Design of Beams and shafts Deflection of Beams and Shafts Buckling of Columns (Problem 1) Energy Methods Intermediate Mechanics of Materials Stress and Strain Material Description Basic Structural Members Composite Structural Members Inelastic Structural Behavior Thin Walled Structural Members Energy Methods Elasticity and Mechanics of Materials Advanced Mechanics of Materials Stress and Strain One Dimensional Structural Member Influence Functions Stability Plates Introduction to Elasticity Variational and Energy Methods </description>
     </item>
     
   </channel>

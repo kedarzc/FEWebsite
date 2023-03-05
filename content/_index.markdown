@@ -16,6 +16,7 @@ As the name suggests, this website is about the 'Finite Element Method'. For tho
 
 ## What is my eventual goal?
 - Offer practical knowledge regarding finite element simulations
+- Develop open source tools for engineering analysis
 - Help engineers in learning the open source finite element modeling tool - CalculiX
 
 <center><h3> My Personal Experience </h3></center>

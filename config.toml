@@ -10,6 +10,7 @@ footnotereturnlinkcontents = "↩"
 
 # This defines the menu
 # ---------------------
+
 [[menu.main]]
     name = "Home"
     url = "/"
@@ -21,9 +22,14 @@ footnotereturnlinkcontents = "↩"
     weight = 2
 
 [[menu.main]]
+name = "Softwares"
+url = "/mySoftwares/"
+weight = 3
+
+[[menu.main]]
     name = "CalculiX Tutorials"
     url = "/CCXTutorials/"
-    weight = 3
+    weight = 4
 
 [[menu.main]]
     name = "About"
@@ -37,4 +43,4 @@ footnotereturnlinkcontents = "↩"
 # This is a footer that will appear on every page
 [params]
     description = "A website to learn finite elements"
-    footer = "&copy; Kedar A. Malusare, 2022 | [LinkedIn](https://www.linkedin.com/in/kedarmalusare/) | [Github](https://github.com/kedarzc)"
+    footer = "&copy; Kedar A. Malusare, 2023 | [LinkedIn](https://www.linkedin.com/in/kedarmalusare/) | [Github](https://github.com/kedarzc)"
