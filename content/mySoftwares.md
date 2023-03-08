@@ -8,5 +8,8 @@ The composite laminate calculator can be used to calculate the effective materia
 
 [Download](/softwares/CompositePropInstall.zip)
 
+![Composite Laminate Calculator](/images/CompositeLaminateCalculator.jpg)
+
+
 ### Glass Fiber Reinforced Polymer (GFRP) Homogenization
 
